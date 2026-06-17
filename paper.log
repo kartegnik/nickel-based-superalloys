@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  17 JUN 2026 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  17 JUN 2026 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1817,7 +1817,13 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
-(./paper.aux)
+(./paper.aux
+\c@totalcount@figure@totc=\count645
+\c@totalcount@table@totc=\count646
+\c@TotPages@totc=\count647
+\c@totalappendix@totc=\count648
+\c@totalchapter@totc=\count649
+)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -1845,16 +1851,16 @@ Package nag Info: Command \RaggedLeft not defined, skipping amendment on input l
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input line 80.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count645
+\scratchcounter=\count650
 \scratchdimen=\dimen389
 \scratchbox=\box103
-\nofMPsegments=\count646
-\nofMParguments=\count647
+\nofMPsegments=\count651
+\nofMParguments=\count652
 \everyMPshowfont=\toks72
-\MPscratchCnt=\count648
+\MPscratchCnt=\count653
 \MPscratchDim=\dimen390
-\MPnumerator=\count649
-\makeMPintoPDFobject=\count650
+\MPnumerator=\count654
+\makeMPintoPDFobject=\count655
 \everyMPtoPDFconversion=\toks73
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1903,13 +1909,14 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 80.
 LaTeX Info: Redefining \th on input line 80.
 Package hyperref Info: Link coloring ON on input line 80.
+ (./paper.out) (./paper.out)
 \@outlinefile=\write9
 \openout9 = `paper.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count651
+\c@lstlisting=\count656
 Package biblatex Info: Trying to load language 'russian' -> 'russian-gost'...
 Package biblatex Info: ... file 'russian-gost.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex-gost/russian-gost.lbx
@@ -1952,15 +1959,10 @@ Package nag Info: Command \captionabove not defined, skipping amendment on input
 Package nag Info: Command \captionbelow not defined, skipping amendment on input line 80.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input line 80.
 Package nag Info: Command \topcaption not defined, skipping amendment on input line 80.
-\c@totalcount@figure@totc=\count652
-\c@totalcount@table@totc=\count653
-\c@TotPages@totc=\count654
-\c@totalappendix=\count655
-\c@totalappendix@totc=\count656
-\c@totalchapter=\count657
-\c@totalchapter@totc=\count658
+\c@totalappendix=\count657
+\c@totalchapter=\count658
  (./include/renames.tex) (./src/structure.tex (./src/main/title_pdf.tex
-<src/pages/title.pdf, id=8, 597.432pt x 845.07718pt>
+<src/pages/title.pdf, id=148, 597.432pt x 845.07718pt>
 File: src/pages/title.pdf Graphic file (type pdf)
 <use src/pages/title.pdf>
 Package pdftex.def Info: src/pages/title.pdf  used on input line 2.
@@ -1969,7 +1971,7 @@ File: src/pages/title.pdf Graphic file (type pdf)
 <use src/pages/title.pdf>
 Package pdftex.def Info: src/pages/title.pdf  used on input line 2.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<src/pages/title.pdf, id=11, page=1, 597.432pt x 845.07718pt>
+<src/pages/title.pdf, id=151, page=1, 597.432pt x 845.07718pt>
 File: src/pages/title.pdf Graphic file (type pdf)
 <use src/pages/title.pdf, page 1>
 Package pdftex.def Info: src/pages/title.pdf , page1 used on input line 2.
@@ -2003,1310 +2005,37 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [2.2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}] (./include/contents.tex
-No file paper.toc.
-) (./src/main/dictionary.tex [3.3] [4.4
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}] (./include/contents.tex (./paper.toc<<t1.cmap>> (./include/renames.tex)
+Package cleveref Info: loaded `russian' language definitions on input line 2.
+ [3.3])) (./src/main/dictionary.tex [4.4] [5.5
 
-] [5.5]) (./src/main/introduction.tex [6.6] [7.7]
+] [6.6]) (./src/main/introduction.tex [7.7] [8.8]
 Underfull \hbox (badness 3547) in paragraph at lines 34--37
 []\T2A/cmr/m/n/14.4 ����������� ���^^?�^^?���^^?���� ��^^?��^^?��^^?��^^?��^^?���^^?��� ���^^?���^^?��� ����
  []
 
-[8.8
+[9.9
 
-] [9.9]) (./src/main/main.tex [10.10] [11.11
+] [10.10]) (./src/main/main.tex [11.11
 
-] [12.12
-
-] [13.13] [14.14] [15.15] [16.16]
-
-./src/main/main.tex:248: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248     \item �
-                 �ормирование матрицы связей, опи...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:248: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248     \item �
-                 �ормирование матрицы связей, опи...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:248: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248     \item �
-                 �ормирование матрицы связей, опи...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:250: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250     \item �
-                 �ормирование матрицы связей, опи...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:250: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250     \item �
-                 �ормирование матрицы связей, опи...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:250: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250     \item �
-                 �ормирование матрицы связей, опи...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:253: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253     \item �
-                 �остроение глубокой нейронной с�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:253: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253     \item �
-                 �остроение глубокой нейронной с�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:253: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253     \item �
-                 �остроение глубокой нейронной с�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:254: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254     \item �
-                 �бучение модели на подготовленн�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:254: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254     \item �
-                 �бучение модели на подготовленн�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:254: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254     \item �
-                 �бучение модели на подготовленн�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:255: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255     \item �
-                 �ценка точности прогноза по выбр...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:255: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255     \item �
-                 �ценка точности прогноза по выбр...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:255: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255     \item �
-                 �ценка точности прогноза по выбр...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:256: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256 \end{enumeratePaper}
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[17.17] [18.18]
-
-Package nag Warning: table with no \caption on input line 323.
-
-./src/main/main.tex:328: Misplaced alignment tab character &.
-l.328 773.15 &
-               1191.20 & 418.05 & 54.07 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:328: Misplaced alignment tab character &.
-l.328 773.15 & 1191.20 &
-                         418.05 & 54.07 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:328: Misplaced alignment tab character &.
-l.328 773.15 & 1191.20 & 418.05 &
-                                  54.07 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:328: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.328 773.15 & 1191.20 & 418.05 & 54.07 \\ \hline
-                                                 
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--328
-
- []
-
-./src/main/main.tex:329: Misplaced alignment tab character &.
-l.329 973.15 &
-               1285.83 & 312.68 & 32.13 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:329: Misplaced alignment tab character &.
-l.329 973.15 & 1285.83 &
-                         312.68 & 32.13 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:329: Misplaced alignment tab character &.
-l.329 973.15 & 1285.83 & 312.68 &
-                                  32.13 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:329: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.329 973.15 & 1285.83 & 312.68 & 32.13 \\ \hline
-                                                 
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-
- []
-
-./src/main/main.tex:330: Misplaced alignment tab character &.
-l.330 1023.15 &
-                1224.65 & 201.50 & 19.69 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:330: Misplaced alignment tab character &.
-l.330 1023.15 & 1224.65 &
-                          201.50 & 19.69 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:330: Misplaced alignment tab character &.
-l.330 1023.15 & 1224.65 & 201.50 &
-                                   19.69 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:330: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.330 1023.15 & 1224.65 & 201.50 & 19.69 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-
- []
-
-./src/main/main.tex:331: Misplaced alignment tab character &.
-l.331 1373.15 &
-                1154.06 & 219.08 & 15.95 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:331: Misplaced alignment tab character &.
-l.331 1373.15 & 1154.06 &
-                          219.08 & 15.95 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:331: Misplaced alignment tab character &.
-l.331 1373.15 & 1154.06 & 219.08 &
-                                   15.95 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:331: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.331 1373.15 & 1154.06 & 219.08 & 15.95 \\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-
- []
-
-./src/main/main.tex:332: Misplaced alignment tab character &.
-l.332 1143.15 &
-                967.36 & 175.78 & 15.37 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:332: Misplaced alignment tab character &.
-l.332 1143.15 & 967.36 &
-                         175.78 & 15.37 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:332: Misplaced alignment tab character &.
-l.332 1143.15 & 967.36 & 175.78 &
-                                  15.37 \\ \hline
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:332: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.332 1143.15 & 967.36 & 175.78 & 15.37 \\ \hline
-                                                 
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-
- []
-
-./src/main/main.tex:333: Misplaced \crcr.
-\endarray ->\crcr 
-                  \egroup \egroup \@arrayright \gdef \@preamble {}\CT@end 
-l.333 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:333: Too many }'s.
-\endarray ->\crcr \egroup 
-                          \egroup \@arrayright \gdef \@preamble {}\CT@end 
-l.333 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./src/main/main.tex:333: Too many }'s.
-\endarray ->\crcr \egroup \egroup 
-                                  \@arrayright \gdef \@preamble {}\CT@end 
-l.333 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./src/main/main.tex:333: Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.333 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./src/main/main.tex:333: LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.333 \end{tabular}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./src/main/main.tex:333: Missing $ inserted.
-<inserted text> 
-                $
-l.333 \end{tabular}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./src/main/main.tex:333: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.333 \end{tabular}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-./src/main/main.tex:335: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.335 \caption
-              {Пять худших предсказаний на тест�...
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./src/main/main.tex:337: Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.337 \end{table}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./src/main/main.tex:337: Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.337 \end{table}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-./src/main/main.tex:337: Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.337 \end{table}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-./src/main/main.tex:337: LaTeX Error: \begin{document} ended by \end{table}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.337 \end{table}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./src/main/main.tex:337: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.337 \end{table}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-[19.19]
-./src/main/main.tex:352: Undefined control sequence.
-<argument> {\CT@arc@ 
-                     \vline }
-l.352 \begin{tabular}{|l|c|c|}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./src/main/main.tex:352: Undefined control sequence.
-<argument> {\CT@arc@ 
-                     \vline }
-l.352 \begin{tabular}{|l|c|c|}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./src/main/main.tex:352: Undefined control sequence.
-<argument> {\CT@arc@ 
-                     \vline }
-l.352 \begin{tabular}{|l|c|c|}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./src/main/main.tex:352: Undefined control sequence.
-<argument> {\CT@arc@ 
-                     \vline }
-l.352 \begin{tabular}{|l|c|c|}
-                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./src/main/main.tex:353: Undefined control sequence.
-\hline ... \hrule \let \@width \@height {\CT@arc@ 
-                                                  \vline }\futurelet \reserv...
-l.353 \hline
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./src/main/main.tex:355: Undefined control sequence.
-\hline ... \hrule \let \@width \@height {\CT@arc@ 
-                                                  \vline }\futurelet \reserv...
-l.355 \hline
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./src/main/main.tex:359: Undefined control sequence.
-\hline ... \hrule \let \@width \@height {\CT@arc@ 
-                                                  \vline }\futurelet \reserv...
-l.359 \hline
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmae' on page 20 undefined on input line 366.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmse' on page 20 undefined on input line 366.
-
-./src/main/main.tex:368: Misplaced alignment tab character &.
-l.368 RRMAE (\%) &
-                   4.36 & 0.79 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:368: Misplaced alignment tab character &.
-l.368 RRMAE (\%) & 4.36 &
-                          0.79 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:369: Misplaced alignment tab character &.
-l.369 RRMSE &
-              0.08 & 0.0001 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:369: Misplaced alignment tab character &.
-l.369 RRMSE & 0.08 &
-                     0.0001 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:370: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.370 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-./src/main/main.tex:370: Undefined control sequence.
-\hline ... \hrule \let \@width \@height {\CT@arc@ 
-                                                  \vline }\futurelet \reserv...
-l.370 \hline
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--370
-
- []
-
-./src/main/main.tex:371: Misplaced \crcr.
-\endarray ->\crcr 
-                  \egroup \egroup \@arrayright \gdef \@preamble {}\CT@end 
-l.371 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./src/main/main.tex:371: Too many }'s.
-\endarray ->\crcr \egroup 
-                          \egroup \@arrayright \gdef \@preamble {}\CT@end 
-l.371 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./src/main/main.tex:371: Too many }'s.
-\endarray ->\crcr \egroup \egroup 
-                                  \@arrayright \gdef \@preamble {}\CT@end 
-l.371 \end{tabular}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./src/main/main.tex:371: Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.371 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./src/main/main.tex:371: LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.371 \end{tabular}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./src/main/main.tex:371: Missing $ inserted.
-<inserted text> 
-                $
-l.371 \end{tabular}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./src/main/main.tex:371: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.371 \end{tabular}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-./src/main/main.tex:373: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.373 \caption
-              {Сводные результаты кросс-валидац...
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./src/main/main.tex:375: Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.375 \end{table}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-./src/main/main.tex:375: Extra \endgroup.
-\color@endgroup ->\endgraf \endgroup 
-                                     
-l.375 \end{table}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-./src/main/main.tex:375: Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.375 \end{table}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-./src/main/main.tex:375: LaTeX Error: \begin{document} ended by \end{table}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.375 \end{table}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./src/main/main.tex:375: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.375 \end{table}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmae' on page 20 undefined on input line 383.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmse' on page 20 undefined on input line 383.
-
-<src/images/../images/bootstrap_RRMAE.png, id=176, 744.7825pt x 473.77pt>
+] [12.12] [13.13] [14.14] [15.15]
+<src/images/../images/bootstrap_RRMAE.png, id=317, 744.7825pt x 473.77pt>
 File: src/images/../images/bootstrap_RRMAE.png Graphic file (type png)
 <use src/images/../images/bootstrap_RRMAE.png>
-Package pdftex.def Info: src/images/../images/bootstrap_RRMAE.png  used on input line 389.
+Package pdftex.def Info: src/images/../images/bootstrap_RRMAE.png  used on input line 280.
 (pdftex.def)             Requested size: 352.10286pt x 223.98763pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<src/images/../images/bootstrap_RRMSE.png, id=178, 752.8125pt x 471.7625pt>
+<src/images/../images/bootstrap_RRMSE.png, id=319, 752.8125pt x 471.7625pt>
 File: src/images/../images/bootstrap_RRMSE.png Graphic file (type png)
 <use src/images/../images/bootstrap_RRMSE.png>
-Package pdftex.def Info: src/images/../images/bootstrap_RRMSE.png  used on input line 396.
+Package pdftex.def Info: src/images/../images/bootstrap_RRMSE.png  used on input line 287.
 (pdftex.def)             Requested size: 352.10286pt x 220.65582pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20.20]
+[16.16 <./src/images/../images/bootstrap_RRMAE.png>] [17.17 <./src/images/../images/bootstrap_RRMSE.png>] [18.18
 
-LaTeX Warning: Reference `tab:worst_predictions_test' on page 21 undefined on input line 409.
-
-
-LaTeX Warning: Reference `tab:cv_summary' on page 21 undefined on input line 410.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmae' on page 21 undefined on input line 412.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmse' on page 21 undefined on input line 412.
-
-[21.21 <./src/images/../images/bootstrap_RRMAE.png> <./src/images/../images/bootstrap_RRMSE.png>] [22.22]
-
-LaTeX Warning: Reference `tab:worst_predictions_test' on page 23 undefined on input line 435.
-
-
-LaTeX Warning: Reference `tab:cv_summary' on page 23 undefined on input line 436.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmae' on page 23 undefined on input line 437.
-
-
-LaTeX Warning: Reference `fig:bootstrap_rrmse' on page 23 undefined on input line 437.
-
-[23.23] [24.24
-
-] [25.25
-
-] [26.26] [27.27] [28.28] [29.29]
-
-./src/main/main.tex:723: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.723     \item �
-                 �ормирование входного массива и�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:723: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.723     \item �
-                 �ормирование входного массива и�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:723: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.723     \item �
-                 �ормирование входного массива и�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:725: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725     \item �
-                 �ормирование входного массива и�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:725: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725     \item �
-                 �ормирование входного массива и�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:725: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725     \item �
-                 �ормирование входного массива и�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:728: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.728     \item �
-                 �огарифмическое преобразование ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:728: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.728     \item �
-                 �огарифмическое преобразование ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:728: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.728     \item �
-                 �огарифмическое преобразование ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:729: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.729     \item �
-                 �лучайное разделение данных на о...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:729: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.729     \item �
-                 �лучайное разделение данных на о...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:729: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.729     \item �
-                 �лучайное разделение данных на о...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:730: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.730     \item �
-                 �бучение BRANN-модели;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:730: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.730     \item �
-                 �бучение BRANN-модели;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:730: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.730     \item �
-                 �бучение BRANN-модели;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:731: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.731     \item �
-                 �братное преобразование результ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:731: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.731     \item �
-                 �братное преобразование результ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:731: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.731     \item �
-                 �братное преобразование результ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:732: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.732 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[30.30]
-
-./src/main/main.tex:853: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.853     \item �
-                 �имический состав и параметр Лар...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:853: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.853     \item �
-                 �имический состав и параметр Лар...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:853: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.853     \item �
-                 �имический состав и параметр Лар...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:854: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.854     \item �
-                 �рочность преобразуется в логар�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:854: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.854     \item �
-                 �рочность преобразуется в логар�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:854: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.854     \item �
-                 �рочность преобразуется в логар�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:856: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856     \item �
-                 �имический состав и параметр Лар...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:856: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856     \item �
-                 �имический состав и параметр Лар...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:856: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856     \item �
-                 �имический состав и параметр Лар...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:858: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.858     \item �
-                 �рочность преобразуется в логар�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:858: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.858     \item �
-                 �рочность преобразуется в логар�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:858: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.858     \item �
-                 �рочность преобразуется в логар�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:861: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.861     \item �
-                 �спользуется BRANN-модель, устойчи�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:861: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.861     \item �
-                 �спользуется BRANN-модель, устойчи�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:861: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.861     \item �
-                 �спользуется BRANN-модель, устойчи�...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./src/main/main.tex:862: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.862 \end{itemizePaper}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[31.31]) (./src/main/conclusion.tex [32.32]) (./include/references.tex [33.33
+] [19.19] [20.20] [21.21]) (./src/main/conclusion.tex [22.22]) (./include/references.tex [23.23
 
 ]
 
@@ -3326,17 +2055,11 @@ LaTeX Warning: Empty bibliography on input line 6.
 Package caption Warning: Unused \captionsetup[subfloat] on input line 98.
 See the caption package documentation for explanation.
 
-
-Package nag Warning: 1 complaints in total.
-
-
-Package totalcount Warning: Total counter(s) have changed.
-(totalcount)                Rerun to get them right.
-
+No complaints by nag.
 \tf@toc=\write10
 \openout10 = `paper.toc'.
 
-(./paper.aux<<t1.cmap>> (./include/renames.tex)
+(./paper.aux (./include/renames.tex)
 Package cleveref Info: loaded `russian' language definitions on input line 11.
 )
  ***********
@@ -3539,6 +2262,8 @@ supp-pdf.mkii
 epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
 epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 translations-basic-dictionary-english.trsl    (english translation file `translations-basic-dictionary')
+   paper.out
+   paper.out
  russian.lbx    2023/03/05 v3.19 biblatex localization (PK/MW)
 russian-gost.lbx    2023/04/25 v1.24 biblatex-gost styles
  english.lbx    2023/03/05 v3.19 biblatex localization (PK/MW)
@@ -3555,6 +2280,7 @@ src/main/abstract.tex
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
 include/contents.tex
+include/renames.tex
 src/main/dictionary.tex
 src/main/introduction.tex
 src/main/main.tex
@@ -3565,42 +2291,25 @@ include/references.tex
 include/renames.tex
  ***********
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  43F98B99873285345B4E7345A96985E1;14058.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                paper
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: D36877BE490B9E923D691650ACDF52B6;9907.
 Package logreq Info: Writing requests to 'paper.run.xml'.
 \openout1 = `paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51610 strings out of 474222
- 1015346 string characters out of 5748734
- 2122947 words of memory out of 5000000
- 72900 multiletter control sequences out of 15000+600000
+ 51635 strings out of 474222
+ 1015839 string characters out of 5748734
+ 2127897 words of memory out of 5000000
+ 72940 multiletter control sequences out of 15000+600000
  567348 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,17n,110p,1213b,3211s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,17n,110p,1213b,3460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on paper.pdf (33 pages, 775492 bytes).
+Output written on paper.pdf (23 pages, 767276 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 118 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 
