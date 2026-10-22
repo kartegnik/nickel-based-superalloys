@@ -1,0 +1,3 @@
+split,rows,composition_groups,sigma_mean_MPa,sigma_median_MPa,sigma_min_MPa,sigma_max_MPa
+development,938,432,356.01694,248.21126,29.0,1550.0
+test,104,49,338.15775,241.3165,68.94757,1450.0

@@ -1,0 +1,41 @@
+{
+  "protocol": {
+    "grouping": "composition rounded to 5 decimals",
+    "test_group_fraction": 0.1,
+    "cv_folds": 5,
+    "final_ensemble_size": 7,
+    "aggregation": "median",
+    "selected_steps_from_cv": 2400,
+    "target_scaling": "fold-local StandardScaler; inverse transform to MPa",
+    "deterministic_pretraining_steps": 1200,
+    "observation_likelihood": "StudentT(df=4.0)"
+  },
+  "grouped_oof_metrics": {
+    "R2": 0.8997693493633716,
+    "MAE_MPa": 45.62874029033474,
+    "RMSE_MPa": 82.21795723607798,
+    "RRMSE": 0.3300522713019661,
+    "Median_RE": 0.07706061242533008,
+    "P75_RE": 0.1701311296768916,
+    "P90_RE": 0.3941308943267698,
+    "Error_le_5pct": 0.36140724946695096,
+    "Error_le_10pct": 0.5863539445628998,
+    "Error_le_20pct": 0.7825159914712153
+  },
+  "held_out_composition_metrics": {
+    "R2": 0.9685588710177607,
+    "MAE_MPa": 26.46015915503869,
+    "RMSE_MPa": 47.256356357076356,
+    "RRMSE": 0.22670012889715258,
+    "Median_RE": 0.05023194974047888,
+    "P75_RE": 0.1141212011026551,
+    "P90_RE": 0.19517682626710245,
+    "Error_le_5pct": 0.5,
+    "Error_le_10pct": 0.7211538461538461,
+    "Error_le_20pct": 0.9038461538461539,
+    "PI90_coverage": 0.9615384615384616,
+    "PI90_mean_width_MPa": 233.70895385742188,
+    "test_rows": 104.0,
+    "test_composition_groups": 49.0
+  }
+}

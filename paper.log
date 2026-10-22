@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  17 JUN 2026 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.25)  20 OCT 2026 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nesaulov/study/urfu/coursach/result3/urfu-latex-template/paper.tex
-(/home/nesaulov/study/urfu/coursach/result3/urfu-latex-template/paper.tex
+**/home/syval/study/urfu/coursach/result3/urfu-latex-template/paper.tex
+(/home/syval/study/urfu/coursach/result3/urfu-latex-template/paper.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/nag/nag.sty
@@ -851,9 +851,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language29). Reported on input line 105.
+(babel)             (\language28). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language29). Reported on input line 108.
+(babel)             (\language28). Reported on input line 108.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
@@ -1962,7 +1962,7 @@ Package nag Info: Command \topcaption not defined, skipping amendment on input l
 \c@totalappendix=\count657
 \c@totalchapter=\count658
  (./include/renames.tex) (./src/structure.tex (./src/main/title_pdf.tex
-<src/pages/title.pdf, id=168, 597.432pt x 845.07718pt>
+<src/pages/title.pdf, id=172, 597.432pt x 845.07718pt>
 File: src/pages/title.pdf Graphic file (type pdf)
 <use src/pages/title.pdf>
 Package pdftex.def Info: src/pages/title.pdf  used on input line 2.
@@ -1971,7 +1971,7 @@ File: src/pages/title.pdf Graphic file (type pdf)
 <use src/pages/title.pdf>
 Package pdftex.def Info: src/pages/title.pdf  used on input line 2.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<src/pages/title.pdf, id=171, page=1, 597.432pt x 845.07718pt>
+<src/pages/title.pdf, id=175, page=1, 597.432pt x 845.07718pt>
 File: src/pages/title.pdf Graphic file (type pdf)
 <use src/pages/title.pdf, page 1>
 Package pdftex.def Info: src/pages/title.pdf , page1 used on input line 2.
@@ -2019,12 +2019,12 @@ Underfull \hbox (badness 3547) in paragraph at lines 34--37
 ] [10.10]) (./src/main/main.tex [11.11
 
 ] [12.12] [13.13] [14.14] [15.15]
-<src/images/../images/bootstrap_RRMAE.png, id=342, 744.7825pt x 473.77pt>
+<src/images/../images/bootstrap_RRMAE.png, id=347, 744.7825pt x 473.77pt>
 File: src/images/../images/bootstrap_RRMAE.png Graphic file (type png)
 <use src/images/../images/bootstrap_RRMAE.png>
 Package pdftex.def Info: src/images/../images/bootstrap_RRMAE.png  used on input line 280.
 (pdftex.def)             Requested size: 352.10286pt x 223.98763pt.
-<src/images/../images/bootstrap_RRMSE.png, id=344, 752.8125pt x 471.7625pt>
+<src/images/../images/bootstrap_RRMSE.png, id=349, 752.8125pt x 471.7625pt>
 File: src/images/../images/bootstrap_RRMSE.png Graphic file (type png)
 <use src/images/../images/bootstrap_RRMSE.png>
 Package pdftex.def Info: src/images/../images/bootstrap_RRMSE.png  used on input line 287.
@@ -2035,22 +2035,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16.16 <./src/images/../images/bootstrap_RRMAE.png>] [17.17 <./src/images/../images/bootstrap_RRMSE.png>] [18.18
 
-] [19.19] [20.20] [21.21] [22.22] [23.23]
-<src/images/../images/pred_test_distribution_sigma.png, id=414, 769.87625pt x 452.69125pt>
-File: src/images/../images/pred_test_distribution_sigma.png Graphic file (type png)
-<use src/images/../images/pred_test_distribution_sigma.png>
-Package pdftex.def Info: src/images/../images/pred_test_distribution_sigma.png  used on input line 669.
-(pdftex.def)             Requested size: 375.57782pt x 220.8467pt.
-<src/images/../images/pred_vs_true_sigma_scatter.png, id=416, 659.46375pt x 632.3625pt>
-File: src/images/../images/pred_vs_true_sigma_scatter.png Graphic file (type png)
-<use src/images/../images/pred_vs_true_sigma_scatter.png>
-Package pdftex.def Info: src/images/../images/pred_vs_true_sigma_scatter.png  used on input line 684.
-(pdftex.def)             Requested size: 375.57782pt x 360.15125pt.
+] [19.19] [20.20] [21.21] [22.22]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 597.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [23.23] [24.24] [25.25] [26.26]
+Underfull \hbox (badness 1490) in paragraph at lines 833--841
+\T2A/cmr/m/n/14.4 со^^?лют^^?на€ ошиб^^?ка --- $\OML/cmm/m/it/14.4 MAE \OT1/cmr/m/n/14.4 = 42\OML/cmm/m/it/14.4 ;\OT1/cmr/m/n/14.4 5$ \T2A/cmr/m/n/14.4 ћѕа, а сред^^?не^^?квад^^?ра^^?тич^^?на€ ---
+ []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24.24 <./src/images/../images/pred_test_distribution_sigma.png>]) (./src/main/conclusion.tex [25.25 <./src/images/../images/pred_vs_true_sigma_scatter.png>]) (./include/references.tex [26.26
+[27.27]
+<src/images/../images/brann22_test_diagnostics.png, id=445, 924.8151pt x 710.655pt>
+File: src/images/../images/brann22_test_diagnostics.png Graphic file (type png)
+<use src/images/../images/brann22_test_diagnostics.png>
+Package pdftex.def Info: src/images/../images/brann22_test_diagnostics.png  used on input line 920.
+(pdftex.def)             Requested size: 469.47049pt x 360.74847pt.
+ [28.28] [29.29 <./src/images/../images/brann22_test_diagnostics.png>]) (./src/main/conclusion.tex [30.30]) (./include/references.tex [31.31
 
 ]
 
@@ -2124,7 +2124,7 @@ Package caption Warning: Unused \captionsetup[subfloat] on input line 98.
 See the caption package documentation for explanation.
 
 No complaints by nag.
-[27.27
+[32.32
 
 
 ]
@@ -2358,32 +2358,32 @@ src/main/introduction.tex
 src/main/main.tex
 src/images/../images/bootstrap_RRMAE.png
 src/images/../images/bootstrap_RRMSE.png
-src/images/../images/pred_test_distribution_sigma.png
-src/images/../images/pred_vs_true_sigma_scatter.png
+ t2acmtt.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+src/images/../images/brann22_test_diagnostics.png
 src/main/conclusion.tex
 include/references.tex
 include/renames.tex
  ***********
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: EE419D91A5FD920BD661222CC90E44FF;12143.
+(rerunfilecheck)             Checksum: 56E0740258C179900977C5E63B53D727;12258.
 Package logreq Info: Writing requests to 'paper.run.xml'.
 \openout1 = `paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52000 strings out of 474222
- 1024305 string characters out of 5748734
- 2128558 words of memory out of 5000000
- 73285 multiletter control sequences out of 15000+600000
- 568222 words of font info for 62 fonts, out of 8000000 for 9000
+ 52016 strings out of 474222
+ 1024318 string characters out of 5748733
+ 2128636 words of memory out of 5000000
+ 73286 multiletter control sequences out of 15000+600000
+ 568532 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,17n,110p,1213b,3458s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on paper.pdf (27 pages, 912291 bytes).
+ 115i,17n,110p,1210b,3458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on paper.pdf (32 pages, 1299381 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 

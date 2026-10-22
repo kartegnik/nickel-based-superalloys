@@ -1,0 +1,38 @@
+{
+  "protocol": {
+    "grouping": "composition rounded to 5 decimals",
+    "test_group_fraction": 0.1,
+    "cv_folds": 5,
+    "final_ensemble_size": 7,
+    "aggregation": "median",
+    "selected_steps_from_cv": 1800
+  },
+  "grouped_oof_metrics": {
+    "R2": 0.8779115105118303,
+    "MAE_MPa": 62.201756047287475,
+    "RMSE_MPa": 90.74104318436018,
+    "RRMSE": 0.3632979423008173,
+    "Median_RE": 0.1471330502630491,
+    "P75_RE": 0.26946471697931984,
+    "P90_RE": 0.4987131848234593,
+    "Error_le_5pct": 0.16417910447761194,
+    "Error_le_10pct": 0.3603411513859275,
+    "Error_le_20pct": 0.6311300639658849
+  },
+  "held_out_composition_metrics": {
+    "R2": 0.9183940900487266,
+    "MAE_MPa": 43.78422473027156,
+    "RMSE_MPa": 76.13282982369778,
+    "RRMSE": 0.3287249336161096,
+    "Median_RE": 0.109151315208069,
+    "P75_RE": 0.21574480294094697,
+    "P90_RE": 0.4401967528764384,
+    "Error_le_5pct": 0.3076923076923077,
+    "Error_le_10pct": 0.4519230769230769,
+    "Error_le_20pct": 0.7211538461538461,
+    "PI90_coverage": 0.6730769230769231,
+    "PI90_mean_width_MPa": 102.51982879638672,
+    "test_rows": 104.0,
+    "test_composition_groups": 49.0
+  }
+}
