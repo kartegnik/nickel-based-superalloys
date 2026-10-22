@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/models-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) -->
 
-[Читать отчёт](urfu-latex-template/build/paper.pdf) · [Исходники отчёта](src/main/main.tex) · [Библиография](src/bibliography)
+[Читать отчёт](build/paper.pdf) · [Исходники отчёта](src/main/main.tex) · [Библиография](src/bibliography)
 
 </div>
 
@@ -32,7 +32,7 @@
 | Предел прочности | BRANN | RRMSE: **0.2907 МПа** |
 
 Результаты первой модели дополнительно проверены кросс-валидацией и бутстрэп-анализом неопределённости.
-Результаты второй модели проверены OOF.
+Качество второй моделей оценивалось с помощью групповой кросс-валидации и OOF-прогнозов проверяемые составы исключались из обучения соответствующей модели.
 
 <div align="center">
   <img src="src/images/brann22_test_diagnostics.png" alt="КАРТИНКА" width="48%">
