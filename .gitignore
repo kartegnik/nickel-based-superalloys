@@ -24,7 +24,7 @@ __pycache__/
 Thumbs.db
 
 # Build directory
-build/
+# build/
 
 # Visual Studio Code
 .vscode/

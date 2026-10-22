@@ -4,11 +4,11 @@
 
 **Прогнозирование температуры сольвуса γ′-фазы и жаропрочности по химическому составу**
 
-[![LaTeX](https://img.shields.io/badge/report-LaTeX-008080?logo=latex&logoColor=white)](paper.pdf)
+<!-- [![LaTeX](https://img.shields.io/badge/report-LaTeX-008080?logo=latex&logoColor=white)](paper.pdf)
 [![Python](https://img.shields.io/badge/models-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) -->
 
-[Читать отчёт](paper.pdf) · [Исходники отчёта](src/main/main.tex) · [Библиография](src/bibliography)
+[Читать отчёт](urfu-latex-template/build/paper.pdf) · [Исходники отчёта](src/main/main.tex) · [Библиография](src/bibliography)
 
 </div>
 
@@ -29,12 +29,13 @@
 |---|---|---:|
 | Температура сольвуса | Нейронная сеть с дифференциальным слоем | RRMAE: **4,36 ± 0,79 %** |
 | Температура сольвуса | Кросс-валидация | RRMSE: **0,08 ± 0,0001** |
-| Предел прочности | BRANN | RMSE: **370,80 МПа** |
+| Предел прочности | BRANN | RRMSE: **0.2907 МПа** |
 
 Результаты первой модели дополнительно проверены кросс-валидацией и бутстрэп-анализом неопределённости.
+Результаты второй модели проверены OOF.
 
 <div align="center">
-  <img src="src/images/pred_vs_true_sigma_scatter.png" alt="Предсказанная и фактическая прочность" width="48%">
+  <img src="src/images/brann22_test_diagnostics.png" alt="КАРТИНКА" width="48%">
   <img src="src/images/bootstrap_RRMAE.png" alt="Бутстрэп-распределение RRMAE" width="48%">
 </div>
 
@@ -43,12 +44,8 @@
 В репозитории сохранены основные этапы вычислительных экспериментов:
 
 - [модель температуры сольвуса с дифференциальным слоем](Simulation%20of%20the%20nickel%20superalloys%20solvus%20temperature%20by%20the%20deep%20learning%20artificial%20neural%20network%20with%20differential%20layer.ipynb);
-- [байесовская нейронная сеть](Bayesian%20Neural%20Network%20Regression.ipynb);
-- [BRANN и зависимость от параметра Ларсона—Миллера](BRANN%20forecast%20of%20superalloy%20tensile%20strength%20versus%20Larson–Miller%20parameter%20relation%20and%20its%20approximation%20by%20a%20sigmoidal%20function.ipynb);
-- серии экспериментов `BRANN2`–`BRANN9` и варианты реализаций с Pyro;
-- ноутбуки `analis_data*` для разведочного анализа и подготовки данных.
-
-Версии с суффиксами `gpt`, `qwen` и `cloude` сохранены как экспериментальные итерации разработки.
+- [BRANN и зависимость от параметра Ларсона—Миллера](BRANN22.ipynb);
+<!-- - ноутбуки `analis_data*` для разведочного анализа и подготовки данных. -->
 
 ## Структура репозитория
 
@@ -72,14 +69,10 @@
 Понадобятся XeLaTeX, `latexmk` и `biber`. Подробная установка TeX-окружения описана в [INSTALL.md](INSTALL.md).
 
 ```bash
-latexmk -xelatex paper.tex
+latexmk -output-directory=build -pdf -pdflatex="xelatex %O %S" paper.tex
 ```
 
-Готовый документ появится в корне репозитория. Очистить вспомогательные файлы можно командой:
-
-```bash
-latexmk -c
-```
+Готовый документ появится в /build репозитория.
 
 ## Используемые методы
 
@@ -91,7 +84,7 @@ latexmk -c
 
 ## Статус
 
-Модель температуры сольвуса воспроизведена и оценена. BRANN-модель жаропрочности реализована как исследовательский прототип и требует дальнейшего подбора архитектуры и гиперпараметров.
+Модель температуры сольвуса воспроизведена и оценена. BRANN-модель жаропрочности воспроизведена и оценена.
 
 ## Лицензия
 
